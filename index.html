@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Döviz Kuru Uygulaması</title>
+</head>
+<body>
+    <div id="container">
+        <nav class="nav">
+            <div class="header-wrapper">
+                <img src="./img/elon.png" alt="">
+                <h1>DÖVİZ KURU ÇEVİRİCİ</h1>
+                <img src="./img/tosuncukk.png" alt="">
+            </div>
+        </nav>
+        <div class="yazi"><p class="yazi-orta">Canlı verilerle Dolar, Euro, Sterlin (Pound), Yen gibi tüm para birimlerinin döviz kurlarını hesaplayabilir, karşılaştırabilir ve serbest piyasa döviz kuru alış - satış fiyatlarını hesaplayabilirsiniz.</p></div>
+        <div id="main">
+            <div class="content-wrapper">
+                <input type="number" id="amount" placeholder="Miktar">
+                <select id="firstCurrencyOption">
+                    <option selected>USD</option>
+                    <option>EUR</option>
+                    <option>JPY</option>
+                    <option>BGN</option>
+                    <option>CZK</option>
+                    <option>DKK</option>
+                    <option>GBP</option>
+                    <option>HUF</option>
+                    <option>PLN</option>
+                    <option>RON</option>
+                    <option>SEK</option>
+                    <option>CHF</option>
+                    <option>ISK</option>
+                    <option>NOK</option>
+                    <option>HRK</option>
+                    <option>RUB</option>
+                    <option>TRY</option>
+                    <option>AUD</option>
+                    <option>BRL</option>
+                    <option>CAD</option>
+                    <option>CNY</option>
+                    <option>HKD</option>
+                    <option>IDR</option>
+                    <option>ILS</option>
+                    <option>INR</option>
+                    <option>KRW</option>
+                    <option>MXN</option>
+                    <option>MYR</option>
+                    <option>NZD</option>
+                    <option>PHP</option>
+                    <option>SGD</option>
+                    <option>THB</option>
+                    <option>ZAR</option>
+                </select>
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+                <select id="secondCurrencyOption">
+                    <option>USD</option>
+                    <option>EUR</option>
+                    <option>JPY</option>
+                    <option>BGN</option>
+                    <option>CZK</option>
+                    <option>DKK</option>
+                    <option>GBP</option>
+                    <option>HUF</option>
+                    <option>PLN</option>
+                    <option>RON</option>
+                    <option>SEK</option>
+                    <option>CHF</option>
+                    <option>ISK</option>
+                    <option>NOK</option>
+                    <option>HRK</option>
+                    <option>RUB</option>
+                    <option selected>TRY</option>
+                    <option>AUD</option>
+                    <option>BRL</option>
+                    <option>CAD</option>
+                    <option>CNY</option>
+                    <option>HKD</option>
+                    <option>IDR</option>
+                    <option>ILS</option>
+                    <option>INR</option>
+                    <option>KRW</option>
+                    <option>MXN</option>
+                    <option>MYR</option>
+                    <option>NZD</option>
+                    <option>PHP</option>
+                    <option>SGD</option>
+                    <option>THB</option>
+                    <option>ZAR</option>
+                </select>
+                <input type="number" id="result" readonly placeholder="Sonuç">
+            </div>
+        </div>
+    </div>
+    <div class="img">
+        <img src="./img/dovizzz.jpg" alt="doviz">
+    </div>
+    <footer>
+        <h2>
+            Copyright - Samet Geçgel
+        </h2>
+    </footer>
+    <script src="./currency.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

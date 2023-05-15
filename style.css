@@ -1,0 +1,78 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ /* #container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ } */
+ #main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #29293A;
+ }
+.nav{
+   background-color: #1D1D23;
+   width: 100%;
+   color: white;
+}
+.header-wrapper{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+.nav img{
+   height: auto;
+   width: 120px;
+}
+.header-wrapper > h1{
+    margin: 15px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-wrapper{
+   padding: 90px;
+}
+#amount{
+    padding: 10px 20px;
+}
+select{
+   padding: 10px 20px;
+}
+input{
+   padding: 10px 20px;
+    margin: 0px 10px;
+    width: 120px;
+}
+.yazi{
+   width: 100%;
+   background-color: #29293A;
+}
+.yazi-orta{
+   font-size: 24px;
+   text-align: center;
+   width: 40%;
+   margin: 0 auto;
+   padding: 10px;
+   color: white;
+}
+footer > h2{
+   position: fixed;
+    text-align: center;
+    margin-top: 20px;
+    left: 0;
+    bottom: 0;
+    padding: 30px;
+    width: 100%;
+    background-color: #1D1D23;
+    color: white;
+}
